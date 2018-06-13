@@ -1,0 +1,335 @@
+header .header-content {
+    text-align: left;
+    padding: 0;
+}
+
+.red {
+    color: #D13732;
+}
+
+.blue {
+    color: #2E4587;
+}
+
+.poppins-thick {
+    font-family: 'Poppins', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 700;
+}
+
+.poppins-thin {
+    font-family: 'Poppins', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.red-btn:hover {
+    background-color: #df5f58;
+}
+
+.blue-btn:hover {
+    background-color: #5c6ddF;
+}
+
+.container {
+    position: relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 0 30px 0;
+  } 
+  
+  /* style inputs and link buttons */
+  input,
+  .btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+  }
+  
+  input:hover,
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  /* add appropriate colors to fb, twitter and google buttons */
+  .fb {
+    background-color: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background-color: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background-color: #dd4b39;
+    color: white;
+  }
+  
+  /* style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Two-column layout */
+  .col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* vertical line */
+  .vl {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    height: 175px;
+  }
+  
+  /* text inside the vertical line */
+  .vl-innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+  }
+  
+  /* hide some text on medium and large screens */
+  .hide-md-lg {
+    display: none;
+  }
+  
+  /* bottom container */
+  .bottom-container {
+    text-align: center;
+    background-color: #666;
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 650px) {
+    .col {
+      width: 100%;
+      margin-top: 0;
+    }
+    /* hide the vertical line */
+    .vl {
+      display: none;
+    }
+    /* show the hidden text on small screens */
+    .hide-md-lg {
+      display: block;
+      text-align: center;
+    }
+  }
+
+#left-side {
+    width: 60vw;
+    height: auto;
+    padding-left: 50px;
+    background-repeat: repeat-y;
+    overflow: hidden;
+    position: absolute;
+    font-size: 16px;
+    background: white;
+}
+
+#right-side {
+    width: 40vw;
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    padding: 0px 90px 50px 40px;
+    overflow: auto;
+}
+
+.sign-in-to-begin {
+    font-family: Poppins;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.sign-in-stats {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#left-container {
+    padding-right: 50px;
+}
+
+.navbar-brand {
+    padding: 0px;
+    min-height: 60px;
+    width: 10px;
+    size: 10px;
+}
+
+.navbar-brand>img {
+    height: 90%;
+    padding: 10px 0 0 15px;
+    width: auto;
+    /* filter: drop-shadow(1px 1px 3px #505050); */
+}
+
+.white {
+    color: white;
+}
+
+html,
+body,
+.all-content-container {
+    height: 100%;
+    color: #454545;
+    background-size: 800% 800%;
+    animation: AnimationName 18s ease infinite;
+    font-weight: 200;
+}
+
+.featured-green {
+    padding: 10px 50px 10px 10px;
+    background-color: #3EFFDE;
+    color: black;
+}
+
+.poppins-thin {
+    font-family: Poppins;
+}
+
+body {
+    font-family: Poppins;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.blu-btn {
+    background-color: rgb(230, 242, 243);
+}
+
+.full-width {
+    width: 100%;
+}
+
+.white {
+    color: white;
+}
+
+.btn {
+    font-family: 'Quicksand', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 2px;
+    border-radius: 0px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+}
+
+.poppins-small {
+    color: #3F3F3F;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 18px;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.other-mission-desc {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.other-mission-title {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+.featured-white {
+    border: 2px solid #3F3F3F;
+    padding: 10px 10px 10px 10px;
+    background-color: #FFFFFF;
+    width: 50%;
+}
+
+.blue-btn {
+    background-color: #396BAF;
+}
+
+.uc {
+    text-transform: uppercase;
+}
+
+.black {
+    color: black;
+}
+
+.login-btn {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2px;
+    line-height: 22px;
+}
+
+.btn-xl {
+    padding: 20px 45px;
+}
+
+.choose-title {
+    font-size: 41px;
+    line-height: 44px;
+    padding-right: 100px;
+}
